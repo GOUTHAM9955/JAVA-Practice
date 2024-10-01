@@ -29,14 +29,18 @@ class ForEach {
 
 class ArrClass{
 	{
-		// Predefined class names
+		// We don't have Predefined class for an array to manipulate data
+			// So we use until class called Arrays to perfform operations on data inside an array
 
-		int arr[] = new int[5]; // [I
+		int arr[] = new int[5]; 
+		// [I
 		System.out.println(arr.getClass().getName());
-		double arr2[] = new double[5]; //[D
+		double arr2[] = new double[5]; 
+		//[D
 		System.out.println(arr2.getClass().getName());
 		
-		double arr3[][] = new double[5][3]; //[[D
+		double arr3[][] = new double[5][3]; 
+		//[[D
 		System.out.println(arr3.getClass().getName());
 		
 		System.out.println();
